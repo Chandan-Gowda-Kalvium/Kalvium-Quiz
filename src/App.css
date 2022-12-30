@@ -1,0 +1,71 @@
+.App{
+    text-align: center;
+}
+.question-card{
+    background-color: gray;
+    padding: 16px;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 16px;
+    color: white;
+    
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+ul{
+    list-style-type: none;
+}
+li{
+    background-color: darkgray;
+    padding: 16px;
+    border: 3px solid white;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-right: 20px;
+}
+.question-text{
+    color: blue;
+    font-size: 24px;
+}
+.final-result{
+    background-color: gray;
+    padding: 16px;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 16px;
+    color: white;
+
+}
+button{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 24px;
+}
+.kalvium{
+    color: red;
+}
+.curr-score{
+    color: black;
+}
+.toggle-button{
+    background-color: black;
+}
